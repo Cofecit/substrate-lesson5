@@ -304,7 +304,7 @@ construct_runtime!(
 		// Include the custom logic from the pallet-template in the runtime.
 		TemplateModule: pallet_template::{Pallet, Call, Storage, Event<T>},
 		// Include the custom logic from the pallet-poe in the runtime
-		PoeModule: pallet_poe,
+		PoeModule: pallet_poe::{Pallet, Call, Storage, Event<T>},
 	}
 );
 
